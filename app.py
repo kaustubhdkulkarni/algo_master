@@ -33,6 +33,3 @@ def stop():
 def get_messages():
     # Implement logic to fetch and return messages stored by FyersWebSocket.py
     return jsonify({'messages': Fskt.get_messages()})  # Example, adjust accordingly
-
-if __name__ == '__main__':
-    app.run(debug=True)
